@@ -6,9 +6,12 @@
     --color-white: #FFFFFF;
     --color-charcoal: #363633;
     --color-mud: #6B6358;
+    --color-grey: #4A4A47;
+    --color-green: #94E033;
     --color-border: #545454;
     --text-dark:#363633;
     --text-light: #FFFFFF; 
+    --text-grey: #E2E2E2;
 }
 
 *,
@@ -34,6 +37,8 @@ html {
 
 body {
   font-family: 'Outfit', sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 main {
@@ -105,6 +110,15 @@ img {
   line-height: 48px; 
 }
 
+.nav-item a {
+  color: var(--text-light);
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-right: 40px;
+}
+
 .footer-text {
   font-family: Outfit;
   font-size: 20px;
@@ -124,15 +138,39 @@ img {
 
 .about-image { 
   border: 3px solid orange;
+  margin-top: 98px;
 }
 
 .about-image img {
   display: block;
   width: 458px; 
   height: 84px; 
+  
+}
+
+.product-item {
+  width: 414px;
+  height: 578px;
+  flex-shrink: 0;
+  padding-left: 52px;
+  color: var(--text-light);
+  margin-bottom: 78px;
+}
+
+.gallery-item{
+  height: 407px;
+  width: 100%;
+  flex: 1 0 0;
+  border: 1px solid wheat;
 }
 
 footer {
   background-color: var(--color-charcoal);
   color: var(--text-light);
+}
+
+.footer-icon {
+  width: 20px;
+  height: 16px;
+  margin-bottom: -20px;
 }

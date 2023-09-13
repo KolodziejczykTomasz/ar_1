@@ -63,17 +63,6 @@ img {
     border: 0;
 }
 
-.container-fluid {
-  border: 2px solid red;
-}
-
-.row {
-  border: 2px solid green;
-}
-
-.col {
-  border: 2px solid blue;
-}
 
 #about {
   background: #E2E2E2;
@@ -137,7 +126,6 @@ img {
 }
 
 .about-image { 
-  border: 3px solid orange;
   margin-top: 98px;
 }
 
@@ -157,10 +145,19 @@ img {
   margin-bottom: 78px;
 }
 
-.gallery-item{
-  height: 407px;
+.product-images {
+  display: block;
+  height: 100%;
   width: 100%;
-  flex: 1 0 0;
+  object-position: bottom;
+  object-fit: cover;
+
+}
+
+.gallery-item{
+  height: 100%;
+  width: 100%; 
+  object-fit: cover;
   border: 1px solid wheat;
 }
 
@@ -173,4 +170,9 @@ footer {
   width: 20px;
   height: 16px;
   margin-bottom: -20px;
+  margin-left: 30px;
+}
+
+.footer-icon-social {
+  margin-right: 20px;
 }

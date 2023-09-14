@@ -37,13 +37,11 @@ html {
 
 body {
   font-family: 'Outfit', sans-serif;
-  max-width: 1920px;
+  max-width: 1616px;
   margin: 0 auto;
+  border: 4px solid red;
 }
 
-main {
-  display: block;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font: inherit;
@@ -125,10 +123,6 @@ img {
   line-height: 40px;
 }
 
-.about-image { 
-  margin-top: 98px;
-}
-
 .about-image img {
   display: block;
   width: 458px; 
@@ -149,7 +143,7 @@ img {
   display: block;
   height: 100%;
   width: 100%;
-  object-position: bottom;
+  object-position: center;
   object-fit: cover;
 
 }
@@ -158,7 +152,6 @@ img {
   height: 100%;
   width: 100%; 
   object-fit: cover;
-  border: 1px solid wheat;
 }
 
 footer {
@@ -175,4 +168,36 @@ footer {
 
 .footer-icon-social {
   margin-right: 20px;
+}
+
+.black-button {
+  display: inline-flex;
+  padding: 10px 60px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 15px;
+  background: #212121;
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--color-white);
+}
+
+.green-button {
+  display: inline-flex;
+  padding: 10px 60px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 15px;
+  background: #94E033;
+  color: var(--color-charcoal, #363633);
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

@@ -17,54 +17,50 @@
             </a>
           </div> 
           <div class="justify-content-end">              
-          <button 
-            class="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#navbarSupportedContent" 
-            aria-controls="navbarSupportedContent" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation"
-            >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav" style="gap: 40px;">
-              <li class="nav-item">
+              <li class="navMain-item">
                 <a class="nav-link m-0 p-0 " aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="navMain-item">
                 <a class="nav-link m-0 p-0 " href="#">About</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="navMain-item dropdown">
                 <a class="nav-link m-0 p-0 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Products
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>             
+                  <li class="navDropdown-item">
+                    <a class="dropdown-item" href="#">Action</a>
+                  </li>
+                  <li class="navDropdown-item">
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>             
                 </ul>
               </li>
-              <li class="nav-item">
+              <li class="navMain-item">
                 <a class="nav-link m-0 p-0" href="#">Gallery</a>
               </li>
-              <li class="nav-item">
+              <li class="navMain-item">
                 <a class="nav-link m-0 p-0" href="#">Contact</a>
               </li>
-              <li class="nav-item">
+              <li class="navMain-item">
                 <a class="nav-link m-0 p-0" href="#">Blog</a>
               </li>
-              <li class="nav-item">
+              <li class="navMain-item">
                 <a class="nav-link m-0 p-0" href="#">Articles</a>
               </li>
-              <li class="nav-item">
+              <li class="navMain-item">
                 <a class="nav-link m-0 p-0" href="#">Distributors</a>
               </li>
-              <li class="nav-item">
+              <li class="navMain-item">
                 <a class="nav-link m-0 p-0" href="#">Installer Portal</a>
               </li>
             </ul>
-          <div class="d-flex justify-content-center align-items-center" style="margin-left: 33.7px; margin-top: 45px; padding-bottom: 59px;">
+          <div class="d-flex justify-content-center align-items-center" style="margin-left: 33.7px; margin-top: 45px; margin-bottom: 59px;">
             <button class="btn green-button" style="font-size: 24px;">
               Get a Quote
             </button>
@@ -73,19 +69,26 @@
         </div>
       </div>  
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6" style="color: var(--text-light)">
-          <p class="hero-title" style="width: 717px; font-size: 96px; margin-bottom: 65px; margin-top:168px">High Standard Fencing for Privacy</p>
+    <div class="container-fluid" style="position: relative;">
+      <div class="row" style="margin-left: 153px;">
+        <div class="col-lg-6" style="color: var(--text-light);">
+          <p class="hero-title" style="width: 717px; font-size: 96px; margin-bottom: 65px; margin-top:168px;">High Standard Fencing for Privacy</p>
           <p class="body-text" style="font-size: 20px; width: 717px;">ColorMAX® steel privacy fence panels are built to last and provides your family or business with PRIVACY and SECURITY. Featuring a unique panel system with STYLISH DESIGN that is NEIGHBOR FRIENDLY, EASY TO MAINTAIN, DURABLE, FIRE RESISTANT and ROT and TERMITE RESISTANT.</p>
-          <button class="btn green-button" style="margin-top: 78px">Contact Us</button>
+          <div style="z-index: 9999; display: block; position: relative">
+           <button class="btn green-button" style="margin-top: 78px; margin-bottom: 186px; ">Contact Us</button> 
+          </div>
+          
         </div>
-        <div class="col-lg-6">
-          <img src="./assets/img/colormaxna-gallery-image-19 1hero.png " alt=""/>
+        <div class="col-lg-6" style="position: relative;">
+          <img src="./assets/img/colormaxna-gallery-image-19 1hero.png " alt="" style="display: block; position: absolute; right: 140px; bottom: 130px; z-index: 1;"/>
         </div>
       </div>
-   </div>              
-  </header>  
+      <div style="position: absolute; width: 1920px; height: 330px; display: block; bottom: 0; right: 0; overflow: hidden;">
+        <img src="./assets/img/back/Group 20.svg" alt="" />
+   </div> 
+   </div>
+                
+    </header>  
     <main>
       <section id="service" style="background: #212121; ">
         <div class="container h-100" style="height: 1108px; max-width: 1616px; padding-top: 98px;" >
@@ -113,15 +116,15 @@
               <div class="row">
                 <div class="col">
                   <div class="row justify-content-between">
-                    <div class="product-item" style="background: var(--color-charcoal, #363633);">
-                      <div class="section-title" style="margin:145px 0 19px 0; width: 279px; height: 163px; font-size: 64px">
+                    <div class="product-item" style="background-image: url('./assets/img/back/pattern-01.svg');">                     
+                      <div class="section-title" style="margin:145px 0 19px 0; width: 279px; height: 163px; font-size: 64px; ">
                         High Quality
                       </div>
                       <div class="body-text" style="width: 307px; height: 216px; flex-shrink:0; font-size: 20px;">
                         Structural steel core base made ensuring strict adherence to the highest quality, grade and finish of your steel.
                       </div>
                     </div>
-                    <div class="product-item " style="background: #6B6358;">
+                    <div class="product-item " style="background-image: url('./assets/img/back/pattern-02.svg');">
                         <div class="section-title" style="margin:145px 0 19px 0; width: 279px; height: 163px; font-size: 64px">
                           Long Lasting
                         </div>
@@ -129,7 +132,7 @@
                           The steel base of the panels are coated with Activate™ technology, BlueScope’s industry-leading metallic coating that enhances anti-corrosion performance.
                         </div>
                     </div>
-                    <div class="product-item" style="background:#53514D;">
+                    <div class="product-item" style="background-image: url('./assets/img/back/pattern-03.svg');">
                       <div class="section-title"style="margin:145px 0 19px 0; width: 279px; height: 163px; font-size: 64px">
                         Stylish Design
                       </div>
@@ -144,28 +147,28 @@
           </div>
         </div>
       </section>
-      <section id="about" style="height: 489px; padding-top: 98px;">
-        <div class="container" style="max-width: 1616px; margin: 0 auto 94px auto;" >
+      <section id="about" style="height: 489px; padding-top: 98px; padding-bottom: 94px; padding-left: 153px;">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col align-content-start">                    
-                  <div class="about-image align-items-start"  style="margin-right: 142px;">
-                    <img src="./assets/img/colorbond-logo 1.svg" alt="" />                       
-              </div>                  
+            <div class="align-content-start" style="width: 458px; margin-right: 140px;">                    
+                  <div class="about-image align-items-start">
+                    <img src="./assets/img/colorbond-logo 1.svg" alt="" class="p-0 m-0" style="width: 100%;"/>                       
+                  </div>                  
                 <div class="">
                   <button class="btn green-button" style="margin-top: 48px;">Learn more about ColorBond</button>                    
               </div>
             </div>
-            <div class="col" style="width: 1027px; min-height: 297px; padding-right: 140px; ">
+            <div class="col" style="width: 1027px; min-height: 297px; padding-right: 140px;">
               <div class="row">                      
-                  <p class="body-text"style="font-size: 20px;">At ColorMAX® North America, we supply steel privacy fencing to businesses, builders, and contractors. Our mission is to bring high quality, long lasting, easy to maintain fence options to the U.S. market. The current options (wood, vinyl, chainlink) do not hold up against harsh weather conditions and can cost home and business owners thousands of dollars in maintenance, repair and replacement costs. Steel privacy fencing is a product that avoids all the headache.</p>               
-                  <p class="body-text" style="font-size: 20px; ">ColorMAX® North America is the first U.S. fence supplier to offer consumers, installers and wholesalers ColorMAX® Steel Privacy Fencing made with COLORBOND® steel from Australia!</p>
-                
+                  <p class="body-text"style="font-size: 20px; padding-left: 0; padding-right: 0;">At ColorMAX® North America, we supply steel privacy fencing to businesses, builders, and contractors. Our mission is to bring high quality, long lasting, easy to maintain fence options to the U.S. market. The current options (wood, vinyl, chainlink) do not hold up against harsh weather conditions and can cost home and business owners thousands of dollars in maintenance, repair and replacement costs. Steel privacy fencing is a product that avoids all the headache.</p>               
+                  <br/><br/>
+                  <p class="body-text" style="font-size: 20px; padding-left: 0; padding-right: 0;">ColorMAX® North America is the first U.S. fence supplier to offer consumers, installers and wholesalers ColorMAX® Steel Privacy Fencing made with COLORBOND® steel from Australia!</p>
               </div>
             </div>
           </div>
         </div>
       </section>  
-      <section id="products" style="background: var(--color-charcoal);">
+      <section id="products" style="background: var(--color-charcoal); position: relative;">
         <div class="container justify-content-center" style="max-width: 1616px; padding-top: 64px;" >
           <div class="row">
             <div class="col">
@@ -176,9 +179,11 @@
                 <div class="position-relative " style="width: 1061px; height: 603px; flex-shrink: 0;">                           
                     <img src="assets/img/colormaxna-gallery-image-19 1.png" alt="" class="product-images"/>     
                 </div>
-                <div class="position-absolute " style="width:906px; padding-top: 52px; margin-left: 620px;">
-                  <div class="body-text " style="color:var(--text-light); opacity: 0.9; background: #6B6358; padding-top: 38px; padding-left: 80px;  height:485px; margin-bottom: 18px;">
-                    <ul style="font-size: 20px; ">
+                <div class="position-absolute " style="width:1002px; padding-top: 52px; margin-left: 620px; height: 485px;">
+                 
+                  <div class="body-text " style="background: var(--Mud, #6B6358);opacity: 0.9; background-image: url('./assets/img/back/pattern-on-the-side.svg'); padding-top: 38px; padding-left: 80px; height: 485px; 
+                  ">
+                    <ul style="font-size: 20px;">
                       <li>Standard Fence Panel is approximately 8’ Wide X 6’ </li>
                       <li>Tall Standard Fence Panel includes: 3 sheets, 2 posts, 2 rails </li>
                       <li>Sheets are available in 6’ Heights </li>
@@ -189,14 +194,17 @@
                       <li>Available Colors: Woodland Grey, Jasper, Monument </li> 
                       <li>Made with COLORBOND® Steel</li>
                     </ul>                   
-                    <div  >
+                    <div>
                       <button class="btn green-button">Shop Our Products</button>
                     </div>
-                  </div>                   
+                  </div>          
                 </div>                       
               </div>
             </div>
           </div>
+        </div>
+        <div style="position: absolute; display: block; top:610px; left: 1400px;">
+          <img src="./assets/img/Frame 16.svg" alt=""/>
         </div>  
       </section>
       <section id="inspire" style="background: var(--color-charcoal); padding-top: 113px; padding-bottom: 114px;">
@@ -213,20 +221,28 @@
                   </div>  
                 </div>             
               </div>
-              <div class="row" style="display: flex; max-width: 1616px;">
-                <div class="d-flex p-0 m-0" style="gap: 60px; height: 407px; flex: 1 0 0;">
+              <div class="row" style="display: flex; max-width: 1616px; ">
+                <div class="d-flex p-0 m-0" style="gap: 60px; height: 407px; flex: 1 0 0;position: relative">
                   <img src="./assets/img/gal/colormaxna-fence-gallery-image-6g1.png" alt="" class="gallery-item"/>
                   <img src="./assets/img/gal/colormaxna-gallery-image-19g2.png" alt="" class="gallery-item"/>
                   <img src="./assets/img/gal/Oregon-Steel-Fencing-Companyg3.png" alt="" class="gallery-item"/>
                   <img src="./assets/img/gal/pets-and-privacyg4.png" alt="" class="gallery-item"/>
+                
+                <div style="position: absolute; display: block; top:35%; left: 0;">
+                  <img src="./assets/img/Frame 20.svg" alt=""/>
                 </div>
+                <div style="position: absolute; display: block; bottom: 25%; right: 0;">
+                  <img src="./assets/img/Frame 19.svg" alt=""/>
+                </div>
+                </div>
+                
               </div>
             </div>
           </div>
         </div>
       </section>        
-      <section id="opinions" style="background: var(--color-charcoal); padding-bottom: 125px;">
-        <div class="container justify-content-center" style="max-width: 1616px; padding-left: 100px; background: var(--color-grey); color: var(--text-grey); padding-top: 80px; padding-right: 125px;" >
+      <section id="opinions" style="background: var(--color-charcoal); padding-bottom: 125px; position: relative;">
+        <div class="container justify-content-center" style="max-width: 1616px; padding-left: 100px; background: var(--color-grey); color: var(--text-grey); padding-top: 80px; padding-right: 125px; position: relative; z-index: 1;" >
           <div class="row" >
             <div class="col">
               <div class="row" style="padding-bottom: 73px;">
@@ -253,52 +269,66 @@
               <button class="btn green-button" style="margin-bottom: 99px;">Read more reviews</button>
             </div>
           </div>
+          <div style="position: absolute; display: block; bottom: 185.82px; right: 78px; overflow: hidden;">
+            <img src="./assets/img/Vector 49.svg" alt=""/>
+          </div>
+          </div>
+          <div style="position: absolute; width: 1920px; height: 650px; display: block; bottom: 0; right: 0; overflow: hidden;">
+            <img src="./assets/img/back/Group 7.svg" alt="" style="height: 650px;"/>
         </div>
+            
       </section>   
-      <section id="description" style="background: var(--color-green); max-width: 1920px;max-height:372px;">
+      <section id="description" style="background: var(--color-green); max-width: 1920px;max-height:372px; position: relative;">
         <div class="container-fluid justify-content-center p-0">
           <div class="d-flex" style="max-width: 1920px;">
             <div class="section-title" style="width: 1016px; height: 372px;">                    
-                <div style="padding-bottom: 73px; padding-top: 54px; padding-left: 142px; height: 245px;">Tested in Australian Conditions for Over 50 Years    </div>                
+                <div style="padding-bottom: 73px; padding-top: 54px; padding-left: 142px; height: 245px; z-index: 9999; display: block; position: relative">Tested in Australian Conditions for Over 50 Years    </div>                
             </div>
             <div class="body-text" style="padding-top: 74px; width: 908px; padding-left: 142px;">
-                <p style="font-size: 20px; width: 583px; height: 142px;">Leading scientists have been testing COLORBOND® Steel for over 50 years in some of the harshest Australian climate conditions. So you have peace of mind knowing your ColorMAX® privacy fence made with COLORBOND® steel is made to last!
+                <p style="font-size: 20px; width: 583px; height: 142px; ">Leading scientists have been testing COLORBOND® Steel for over 50 years in some of the harshest Australian climate conditions. So you have peace of mind knowing your ColorMAX® privacy fence made with COLORBOND® steel is made to last!
                 </p>
                 <div class="d-flex justify-content-start" style="padding-bottom: 59px; margin-top: 47px;" >
                   <button class="btn black-button">Get a Quote</button>
                 </div>
             </div>                   
           </div>
-        </div>              
+        </div>  
+        <div style="position: absolute; width: 1016px; height: 372px; display: block; bottom: 0; left: 0; overflow: hidden;">
+          <img src="./assets/img/back/pattern-02-transparent.svg" alt="" style="width: 1016px;"/>
+        </div>
+        
       </section>          
     </main>
-    <footer>
-      <div class="container p-0" style="max-width: 1605px">
+    <footer >
+      <div style="position:relative; overflow: hidden;">
+      <div class="container p-0" style="max-width: 1605px;">
         <div class="row m-0" style="padding-top: 105px; max-width: 1605px">
-          <div class="col-lg-6 p-0">
+          <div class="col-lg-7 p-0">
             <div class="row m-0">
               <div class="col-lg-5 p-0" style="padding-left: 123px;">
                 <div>
                   <img src="./assets/img/Frame.svg" arl="brand logo"/>
                 </div>
-                <div>
-                  <div>
+               
+
                     <div class="d-flex justify-content-center align-items-start p-0" style="margin: 29px 0;">
-                      <div class="" style=" margin-right: 23px; padding-left: 123px;"><img src="./assets/img/Location.svg" alt="" class="footer-icon"></div>
-                      <div style="width: 386px; height: 65px; flex-shrink: 0;">
-                        <p class="footer-text" style="padding: 0; margin:0">4409 SE 24th Ave, Suite 33</p>
-                        <p class="footer-text" style="padding: 0; margin:0">Portland, Oregon 97202</p>
+                      <div class="" style=" margin-right: 23px; padding-left: 20px;"><img src="./assets/img/Location.svg" alt="" class="footer-icon"></div>
+                      <div style="width: 386px; height: 65px; flex-shrink: 0; ">
+                        <p class="footer-text" style="padding: 0; margin:0;">4409 SE 24th Ave, Suite 33</p>
+                        <p class="footer-text" style="padding: 0; margin:0;">Portland, Oregon 97202</p>
                       </div>
                     </div>
                     <div class="d-flex justify-content-center align-items-start p-0">
-                      <div style="margin-right: 23px;padding-left: 122px;"><img src="./assets/img/Mail.svg" alt="" class="footer-icon"/></div>
+                      <div style="margin-right: 23px;padding-left: 20px;"><img src="./assets/img/Mail.svg" alt="" class="footer-icon"/></div>
                       <div style="width: 386px; height: 65px; flex-shrink: 0;">
                         <p class="footer-text" style="padding: 0; margin:0" >sales@colormaxfencing.com</p></div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col">
+           
+
+
+
+              <div class="col p-0" style="margin-left: 160px;width:132px">
                 <div class="subheader-text">
                   Company
                 </div>
@@ -311,7 +341,9 @@
                   </ul>
                 </div>
               </div>
-              <div class="col">
+
+
+              <div class="col p-0" style="margin-left: 100px; width: 152px;">
                 <div class="subheader-text">
                   Quick Links
                 </div>
@@ -325,35 +357,42 @@
                   </ul>
                 </div>
               </div>
+
+
+
             </div>
           </div>
 
-          <div class="col-lg-6 p-0 d-flex justify-self-end" style="width: 713px; height: 346px;">
-            <p class="quote" style="font-size: 32px; width: 500px; height: 346px; padding-left: 93px;">ColorMAX® steel privacy fence panels are built to last.</p>
+
+
+          <div class="col d-flex justify-self-end" style="width: 400px; height: 346px; margin-left:193px;">
+            <p class="quote" style="font-size: 32px; width: 430px; height: 346px; ">ColorMAX® steel privacy fence panels are built to last.</p>
           </div>
-
-        </div>        
+          <div style="position: absolute; width: 713px; height: 620px; display: block; bottom: 0; right: 0;">
+            <img src="./assets/img/back/pattern-03-transparent.svg" alt="" style="width: 713px;"/>
+          </div>
+        </div>                
       </div>
-
-      <div class="container-fluid text-center d-flex" style="flex-wrap: nowrap; gap: 20px; flex: 1 0 0; border-top: 1px solid var(--color-border)">
+</div>
+      <div class="container-fluid text-center d-flex" style="flex-wrap: nowrap; gap: 20px; flex: 1 0 0; border-top: 1px solid var(--color-border);">
           <div class="col"> 
-            <p class="footer-text">© ColorMAX 2022    |   All Rights Reserved</p>
+            <p class="footer-text" style="padding: 20px 60px; margin-bottom: 0;">© ColorMAX 2022    |   All Rights Reserved</p>
           </div>
           <div class="col" style="border-right: 1px solid var(--color-border); border-left: 1px solid var(--color-border)"> 
-            <p class="footer-text">Developed by HFB Technologies</p>
+            <p class="footer-text" style="padding: 20px 60px; margin-bottom: 0;">Developed by HFB Technologies</p>
           </div>
-          <div class="col" style="gap:20"> 
-            <p class="footer-text">Follow Us 
+          <div class="col" style="gap:20; "> 
+            <p class="footer-text" style="padding: 20px 60px; margin-bottom: 0;">Follow Us 
               <img src="./assets/img/facebook.svg" alt="" class="footer-icon-social" style="margin-left: 20px;"/>
               <img src="./assets/img/youtube.svg" alt="" class="footer-icon-social"/>
               <img src="./assets/img/instagram.svg" alt="" class="footer-icon-social"/>
             </p>
           </div>
-        </div>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
     <script src="assets/js/main.js"></script>
 

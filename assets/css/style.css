@@ -209,9 +209,21 @@ footer {
   color: var(--color-white);
 }
 
-.answer{
+.answer {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
+
+/** Distributors page **/
+
+.distributors-list {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+
+/** Products page **/

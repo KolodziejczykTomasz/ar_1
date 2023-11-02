@@ -278,3 +278,12 @@ footer {
   height: 172px;
   border-radius: 50%;
 }
+
+/** Wholesale Page **/
+
+.wholesale-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
